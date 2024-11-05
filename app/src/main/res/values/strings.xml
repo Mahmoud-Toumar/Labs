@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Lab05</string>
+    <string name="app_name">Lab6</string>
+    <string name="time">Time</string>
+    <string name="received_message">Received Message</string>
+    <string name="sent_message">Sent Message</string>
     <string name="send">Send</string>
     <string name="receive">Receive</string>
 

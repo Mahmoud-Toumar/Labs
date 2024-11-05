@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Lab05</string>
-    <string name="send">Send</string>
-    <string name="receive">Receive</string>
-</resources>
+
+    <resources>
+        <string name="app_name">Lab6</string>
+        <string name="time">Heure</string>
+        <string name="received_message">Message Reçu</string>
+        <string name="sent_message">Message Envoyé</string>
+        <string name="send">Envoyer</string>
+        <string name="receive">Recevoir</string>
+    </resources>
+
