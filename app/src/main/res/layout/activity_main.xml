@@ -16,7 +16,7 @@
         android:id="@+id/messageEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type Here"
+        android:hint="@string/type_here_"
         android:padding="10dp" />
 
     <LinearLayout

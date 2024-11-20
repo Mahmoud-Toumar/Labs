@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">Lab05</string>
-    <string name="send">Send</string>
-    <string name="receive">Receive</string>
+    <!-- General Strings -->
+    <string name="app_name">Lab 6 Chat</string>
+    <string name="type_here_">Type your message here…</string>
+    <string name="send_button">Send</string>
+    <string name="receive_button">Receive</string>
 
+    <!-- Dialog Strings -->
+    <string name="dialog_title">Question</string>
+    <string name="dialog_message">Do you want to delete the message at position: %1$d?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+
+    <!-- Snackbar Strings -->
+    <string name="snackbar_message">Message at position %1$d deleted.</string>
+    <string name="snackbar_action">Undo</string>
 </resources>

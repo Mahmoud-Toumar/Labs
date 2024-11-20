@@ -36,12 +36,24 @@ android {
 }
 
 dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.0") {
+        exclude(group = "com.intellij", module = "annotations")
+    }
+    implementation("com.google.android.material:material:1.12.0") {
+        exclude(group = "com.intellij", module = "annotations")
+    }
+    implementation("androidx.activity:activity:1.8.0") {
+        exclude(group = "com.intellij", module = "annotations")
+    }
+    implementation("androidx.constraintlayout:constraintlayout:2.2.0") {
+        exclude(group = "com.intellij", module = "annotations")
+    }
+    implementation("androidx.room:room-runtime:2.6.1") {
+        exclude(group = "com.intellij", module = "annotations")
+    }
+    annotationProcessor("androidx.room:room-compiler:2.6.1") // For ROOM annotation processing with Java
 
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 }

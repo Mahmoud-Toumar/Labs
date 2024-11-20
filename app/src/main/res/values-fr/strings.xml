@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab05</string>
-    <string name="send">Send</string>
-    <string name="receive">Receive</string>
+    <!-- General Strings -->
+    <string name="app_name">Lab 6 Chat</string>
+    <string name="type_here_">Tapez votre message ici…</string>
+    <string name="send_button">Envoyer</string>
+    <string name="receive_button">Recevoir</string>
+
+    <!-- Dialog Strings -->
+    <string name="dialog_title">Question</string>
+    <string name="dialog_message">Voulez-vous supprimer le message à la position : %1$d ?</string>
+    <string name="dialog_positive">Oui</string>
+    <string name="dialog_negative">Non</string>
+
+    <!-- Snackbar Strings -->
+    <string name="snackbar_message">Message à la position %1$d supprimé.</string>
+    <string name="snackbar_action">Annuler</string>
 </resources>
