@@ -1,6 +1,6 @@
 <resources>
     <!-- General Strings -->
-    <string name="app_name">Lab 6 Chat</string>
+    <string name="app_name">Chat de Lab 6</string>
     <string name="type_here_">Tapez votre message ici…</string>
     <string name="send_button">Envoyer</string>
     <string name="receive_button">Recevoir</string>
@@ -14,4 +14,32 @@
     <!-- Snackbar Strings -->
     <string name="snackbar_message">Message à la position %1$d supprimé.</string>
     <string name="snackbar_action">Annuler</string>
+    <string name="snackbar_cleared">Liste effacée.</string>
+    <string name="snackbar_deleted_all">Tous les messages ont été supprimés.</string>
+
+    <!-- Menu Titles -->
+    <string name="menu_clear_list">Effacer la liste</string>
+    <string name="menu_load_list">Charger la liste</string>
+    <string name="menu_delete_all">Tout supprimer</string>
+    <string name="menu_help">Aide</string>
+
+    <!-- Help Dialog -->
+    <string name="help_dialog_title">Aide</string>
+    <string name="help_dialog_message">Cette application montre l\'utilisation de ListView avec ROOM. Créé par %1$s.</string>
+
+    <!-- Accessibility Strings -->
+    <string name="listview_description">Liste des messages de chat</string>
+    <string name="edittext_description">Champ de texte pour saisir votre message</string>
+    <string name="send_button_description">Bouton pour envoyer le message</string>
+    <string name="receive_button_description">Bouton pour recevoir un message</string>
+
+    <!-- Message Content -->
+    <string name="sent_message">Message envoyé</string>
+    <string name="received_message">Message reçu</string>
+
+    <!-- Content Descriptions -->
+    <string name="sent_message_description">Ceci est un message envoyé</string>
+    <string name="received_message_description">Ceci est un message reçu</string>
+
+
 </resources>

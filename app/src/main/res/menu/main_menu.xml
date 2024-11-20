@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_clear_list"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/menu_clear_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_load_list"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/menu_load_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_delete_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/menu_help"
+        app:showAsAction="never" />
+</menu>

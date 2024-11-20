@@ -5,21 +5,29 @@
     android:layout_height="wrap_content"
     android:padding="10dp">
 
+    <!-- Sent Message TextView -->
     <TextView
         android:id="@+id/sendTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="start"
-        android:text="Sent Message"
-        android:visibility="gone" />
+        android:text="@string/sent_message"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:paddingEnd="8dp"
+        android:visibility="gone"
+        android:contentDescription="@string/sent_message_description" />
 
+    <!-- Received Message TextView -->
     <TextView
         android:id="@+id/receiveTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="end"
-        android:text="Received Message"
-        android:visibility="gone" />
+        android:text="@string/received_message"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:paddingStart="8dp"
+        android:visibility="gone"
+        android:contentDescription="@string/received_message_description" />
 </LinearLayout>

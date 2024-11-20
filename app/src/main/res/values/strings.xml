@@ -14,4 +14,34 @@
     <!-- Snackbar Strings -->
     <string name="snackbar_message">Message at position %1$d deleted.</string>
     <string name="snackbar_action">Undo</string>
+    <string name="snackbar_cleared">List cleared.</string>
+    <string name="snackbar_deleted_all">All messages deleted.</string>
+
+    <!-- Menu Titles -->
+    <string name="menu_clear_list">Clear List</string>
+    <string name="menu_load_list">Load List</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_help">Help</string>
+
+    <!-- Help Dialog -->
+    <string name="help_dialog_title">Help</string>
+    <string name="help_dialog_message">This application shows the use of ListView with ROOM. Created by %1$s.</string>
+
+    <!-- Accessibility Strings -->
+    <string name="listview_description">List of chat messages</string>
+    <string name="edittext_description">Text field for typing your message</string>
+    <string name="send_button_description">Button to send the message</string>
+    <string name="receive_button_description">Button to receive a message</string>
+
+    <!-- Message Content -->
+    <string name="sent_message">Sent Message</string>
+    <string name="received_message">Received Message</string>
+
+    <!-- Content Descriptions -->
+    <string name="sent_message_description">This is a sent message</string>
+    <string name="received_message_description">This is a received message</string>
+
+
+
+
 </resources>
